@@ -153,6 +153,10 @@ input:hover {
 	font-size: 12px;
 }
 
+input:focus {
+	outline-width: 0px;
+}
+
 .buttons-cta button {
 	font-size: 13px;
 	font-weight: lighter;
