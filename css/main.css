@@ -358,7 +358,7 @@ form.cta {
 
 @media (max-width: 500px) {
 	form.cta {
-		margin-right:80px;
+		margin-right: 80px;
 	}
 	li.top-nav-item {
 		margin: 14px 10px;
@@ -378,6 +378,12 @@ form.cta {
 }
 
 @media (max-width: 460px)  {
+	form.cta {
+		margin-left: 60px;
+	}
+}
+
+@media (max-width: 460px)  {
 	li.top-nav-item {
 		margin: 14px 6px;
 	}
@@ -387,10 +393,51 @@ form.cta {
 }
 
 @media (max-width: 420px) {
+	li.top-nav-item {
+		margin: 14px 3px;
+	}
+}
+
+@media (max-width: 414px) {
+	form.cta {
+		margin: 0 0 0 50px;
+	}
+	h1.intro {
+		font-size: 18px;
+	}
+	div.main-wrap {
+		width: inherit;
+	}
+	div.cta-wrap {
+		width: inherit;
+	}
+}
+
+@media (max-width: 375px) {
+	button.button-quote {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+	.buttons-cta button {
+		width: 120px;
+		font-size: 10px;
+	}
+	button.button-quote {
+		margin-left: 0;
+	}
+	section.main {
+		height: 520px;
+	}
+}
+
+@media (max-width: 320px) {
 	form.cta {
 		margin-left: 30px;
 	}
-	li.top-nav-item {
-		margin: 14px 3px;
+	.about {
+		display: none;
+	}
+	section.main {
+		height: 450px;
 	}
 }
